@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar Promos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    
+    <main>
+        <h2>Cadastrar Promoção</h2>
+             <section id="cadpromo">
+                <form action="">
+                <div class="row">
+                    <div class="col"> 
+                        <label for="txtnomepromo" class="form-label">Nome Promoção</label>
+                        <input type="text" class="form-control" name="txtnomepromo" id="txtnomepromo" tabindex="1" autofocus>
+                        <label for="txtdatapromo">Começa Promoção</label>
+                        <input type="date" name="txtdatapromo" id="txtdatapromo" class="form-control" tabindex="3">
+                        <label for="txtdescpromo">Descrição</label >
+        <textarea name="txtdescpromo" id="txtdescpromo" cols="" rows="6" class="form-control" tabindex="5"></textarea>
+                        
+                    </div>
+                    <div class="col mt-2">
+                        <label for="txtterminapromo">Termina Promoção</label>
+                        <input type="date" name="txtterminapromo" id="txtterminapromo" class="form-control" tabindex="2">
+                        
+                        <label for="seldesc">Desconto</label>
+                        <select name="seldesc" id="seldesc" class="form-control" tabindex="4">
+                            <option value="">Selecione</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                       <div class="mt-4">
+                    <h3>Ativar Promoção</h3>
+                        <label for="ativapromosim" class="form-check-label m-2">Sim</label>
+                       
+                        <input type="radio" name="txtopcao" id="ativapromosim" class="form-check-label m-2" value="1" tabindex="6" />
+                         <label for="ativapromonao" class="form-check-label m-2">Não</label>
+                        <input type="radio" name="txtopcao" id="ativapromonao" class="form-check-label m-2" value="0" tabindex="7 " />
+                    </div>
+                    </div>
+                    
+                     
+                    <div class="row">
+                        <input type="submit" class="btn btn-warning mt-4" value="Cadastrar" name="btcaddesconto" id="btcaddesconto" tabindex="8">
+                    </div>
+            
+            </div>
+        
+
+
+       
+
+        
+        </form>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
